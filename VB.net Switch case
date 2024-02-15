@@ -1,0 +1,24 @@
+Public Class Form1
+Private Sub Form1_Load(sender as Object e as event args)Handles MyBase.Load
+Dim Day as String
+Day= inputBox("Enter any number between 1 to 7")
+Select Case Day
+Case1
+MsgBox("Today is Monday");
+Case2
+MsgBox("Today is Tuesday");
+Case3
+MsgBox("Today is Wednesday");
+Case4
+MsgBox("Today is Thursday");
+Case5
+MsgBox("Today is Friday");
+Case6
+MsgBox("Today is Saturday");
+Case7
+MsgBox("Today is Sunday");
+Case Else
+MsgBox("You have Typed something error");
+End select
+End Sub
+End Class
